@@ -35,7 +35,7 @@ Search the files for each bracket and replace it. `grep -rn "\[" *.html` lists t
 - [ ] **`[CALENDLY]`** in `index.html`: your Calendly event link ("AI Clarity Call — 30 min"). Optionally point every "Book a 30-minute call" button straight at it instead of `#contact`.
 - [ ] **`[EMAIL]`** in `index.html` and `privacy.html`: the business address once Google Workspace is live (e.g. `matt@onwrd.ca`).
 - [ ] **`[FORMSPREE_ENDPOINT]`** in `index.html`: create a free form at formspree.io, paste the endpoint (`https://formspree.io/f/xxxx`). Until then the form posts nowhere; the email link works.
-- [ ] **`[Headshot]`** in `index.html`: drop `assets/img/matt-walker.jpg` (portrait, about 800×1000) and replace the placeholder span with `<img src="assets/img/matt-walker.jpg" alt="Matt Walker">`.
+- [x] **`[Headshot]`** — done. `assets/img/matt-walker.jpg` (750×1000) is in place and wired up in `index.html`. Keep full-size originals out of `assets/`; they are gitignored.
 - [ ] **`[BIO, …]`** in `index.html`: approve or rewrite the three-sentence draft and remove the brackets.
 - [ ] **`[Sample report page, anonymised]`** in `assessment.html`: a blurred screenshot of a real report once one exists. This is the top conversion lever.
 - [ ] **Headline**: the hero uses "Know where AI pays off in your business. And where it doesn't." Alternatives if you want to swap: "We fix the process before we automate it." · "AI that your team actually owns." · "The small-business AI partner who tells you what not to buy."

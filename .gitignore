@@ -1,1 +1,6 @@
 .DS_Store
+
+# Full-size photo originals dropped into assets/. Web images live in assets/img/.
+assets/*.jpg
+assets/*.jpeg
+assets/*.png
