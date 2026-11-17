@@ -1,11 +1,14 @@
 # Onwrd. website
 
 The public site for Onwrd., hosted free on GitHub Pages from this repository
-(`github.com/onwrd/website`). Plain HTML and CSS, no build step, no framework.
+(`github.com/onwrd-ai/website`). Plain HTML and CSS, no build step, no framework.
 Push to `main` and the site redeploys in about a minute.
 
-Live: https://onwrd.ca (once the domain is connected; until then
-https://onwrd.github.io/website/)
+**Live now:** https://onwrd-ai.github.io/website/
+**Once the domain is connected:** https://onwrd.ca
+
+Pushing to `main` redeploys automatically. The Actions tab in the repo shows each
+deploy; it takes about a minute.
 
 ## What's here
 
@@ -36,7 +39,7 @@ Search the files for each bracket and replace it. `grep -rn "\[" *.html` lists t
 - [ ] **`[BIO, …]`** in `index.html`: approve or rewrite the three-sentence draft and remove the brackets.
 - [ ] **`[Sample report page, anonymised]`** in `assessment.html`: a blurred screenshot of a real report once one exists. This is the top conversion lever.
 - [ ] **Headline**: the hero uses "Know where AI pays off in your business. And where it doesn't." Alternatives if you want to swap: "We fix the process before we automate it." · "AI that your team actually owns." · "The small-business AI partner who tells you what not to buy."
-- [ ] **Domain**: register `onwrd.ca` at Cloudflare. In Cloudflare DNS add four `A` records for `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` and a `CNAME` for `www` → `onwrd.github.io`, all DNS-only (grey cloud). In the GitHub repo: Settings → Pages → Custom domain → `onwrd.ca`, wait for the check, tick Enforce HTTPS. Then add a file named `CNAME` to this repo containing just `onwrd.ca`.
+- [ ] **Domain**: register `onwrd.ca` at Cloudflare. In Cloudflare DNS add four `A` records for `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` and a `CNAME` for `www` → `onwrd-ai.github.io`, all DNS-only (grey cloud). In the GitHub repo: Settings → Pages → Custom domain → `onwrd.ca`, wait for the check, tick Enforce HTTPS. Then add a file named `CNAME` to this repo containing just `onwrd.ca`.
 - [ ] After the domain is live, the `https://onwrd.ca/…` links in each page's `<head>`, in `sitemap.xml` and `robots.txt` are already correct. If you choose a different domain, search-and-replace `onwrd.ca`.
 
 ## How to change things
